@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    const apiKey = 'Paste-Your-Unsplash-APIKey-Here';
+    const apiKey = 'c2hFVw1MDmYcTmrE45x34co23bVYj5H8PzV40bkQ7kY';
     const query = 'nature'; // Adjust the query to get relevant images
 
     // Fetch a random image from Unsplash
@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.body.style.backgroundImage = `url('${imageUrl}')`;
 
         // Display photo credit
-        const photoCreditElement = document.getElementById('photo-credit');
-        photoCreditElement.innerHTML = `Photo by <a href="${unsplashLink}" target="_blank">${photographerName} (@${photographerUsername})</a> on Unsplash`;
+        //const photoCreditElement = document.getElementById('photo-credit');
+        //photoCreditElement.innerHTML = `Photo by <a href="${unsplashLink}" target="_blank">${photographerName} (@${photographerUsername})</a> on Unsplash`;
     }
 
     setRandomBackground();
