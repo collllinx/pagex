@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.5s ease; /* Faster transition */
+}
+
+#message {
+    text-align: center;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.5s ease;
+    max-width: 400px;
+    width: 100%;
+}
+
+#photo-credit {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+#photo-credit a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#photo-credit a:hover {
+    text-decoration: underline;
+}
